@@ -1,1 +1,56 @@
-//home for css styles
+/* Target all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgray;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+    #task-creator { //action15
+    width: 45%;
+    padding: 2.5%;
+    float: left;
+  }
+
+  {      #todo-input 
+        
+        padding: 10px;
+        width:80%
+        margin-right: 10px;
+        }
+      
+    
+
+    #todo--form {
+    width: 45%;
+    padding: 2.5%;
+    float: right;
+    }
+    
+         #todo-list {
+        list-style-type: none; 
+        padding: 0; 
+  margin: 20px auto;
+} 
+        
+#todo-list li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+{
+   h1 {
+    color: darkblue;    
+    text-align:center;
+ 
+}
+
